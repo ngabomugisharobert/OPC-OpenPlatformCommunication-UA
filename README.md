@@ -15,13 +15,13 @@ first of all you have to install python
 With pip (note: the package was ealier called opcua)
 windows:
 
-pip install freeopcua       #make sure python is installed
-pip install cryptography       #make sure python is installed
+    pip install freeopcua       #make sure python is installed
+    pip install cryptography       #make sure python is installed
 
 Ubuntu:
 
-apt install python-opcua        # Library
-apt install python-opcua-tools  # Command-line tools
+    apt install python-opcua        # Library
+    apt install python-opcua-tools  # Command-line tools
 
 <h4>Dependencies:</h4>
 
