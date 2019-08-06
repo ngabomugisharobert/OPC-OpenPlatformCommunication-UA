@@ -1,19 +1,19 @@
 # OPC-OpenPlatformCommunication-UA
 OPC UA set up server and client
 
-<h1>test</h1>
-WHAT IS OPC?
+<h1>WHAT IS OPC?</h1>
 *******************
 
 Open Platform Communications is a series of standards and specifications for industrial telecommunication.
 
 
-INSTALLATION OF REQUIRED SOFTWARE
+<h2>INSTALLATION OF REQUIRED SOFTWARE</h2>
 ****************************************
 
 first of all you have to install python 
 
 With pip (note: the package was ealier called opcua)
+windows:
 
 pip install freeopcua
 
@@ -22,14 +22,13 @@ Ubuntu:
 apt install python-opcua        # Library
 apt install python-opcua-tools  # Command-line tools
 
-Dependencies:
+<h4>Dependencies:</h4>
 
     Python > 3.4: cryptography, dateutil, lxml and pytz.
     Python 2.7 or pypy < 3: you also need to install enum34, trollius (asyncio), and futures (concurrent.futures), with pip for example.
 
-Documentation
 
-Client
+<h4>Client</h4>
 
 What works:
 
@@ -41,7 +40,7 @@ What works:
     subscribing to events
     adding nodes
     
-Server
+<h4>Server</h4>
 
 What works:
 
